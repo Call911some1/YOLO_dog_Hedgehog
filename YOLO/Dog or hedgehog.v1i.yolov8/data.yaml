@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Dog', 'Hedgehog']
+
+roboflow:
+  workspace: call911some1
+  project: dog-or-hedgehog
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/call911some1/dog-or-hedgehog/dataset/1
